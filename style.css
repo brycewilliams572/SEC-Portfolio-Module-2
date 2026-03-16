@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: rgb(254, 241, 226);
+    background-color: rgb(255, 244, 233);
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -53,3 +53,34 @@ table, th, td {
     padding: 20px;
     font-size: 16px;
 }
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #2453b1;
+    padding: 20px;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.nav-links li a {
+    color: rgb(255, 244, 233);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.nav-links li a:hover {
+    background-color: #1a3d8f;
+    border-radius: 10px;
+}
+
+.nav-links li a:active {
+    background-color: #1a3d8f;
+    border-radius: 10px;
+}
+

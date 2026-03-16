@@ -15,38 +15,43 @@ body{
 }
 
 h1{
-    color: rgb(0, 0, 0);
+    color: #27180A;
     font-family: 'Fjalla One', sans-serif;
     text-align: center;
 }
 
 h2{
-    color: rgb(0, 0, 0);
+    color: #27180A;
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
 
 h3{
-    color: rgb(0, 0, 0);
+    color: #27180A;
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
 
 p{
-    color: rgb(0, 0, 0);
+    color: #27180A;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
 }
 
-ul{
-    color: rgb(0, 0, 0);
+ul{ 
+
+    color: #27180A;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
     font-size: 16px;
+    background-color: rgb(210, 186, 154);
+    border: 2px solid #27180A;
+    border-radius: 20px;
+    padding: 30px ;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #27180A;
     border-collapse: collapse;
     font-family: 'Libre Baskerville', serif;
     text-align: left;
@@ -66,6 +71,12 @@ table, th, td {
     border-radius: 20px;
 }
 
+.nav-links li a.current {
+    background-color: #122b67;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
 .nav-links li a {
     color: rgb(255, 244, 233);
     text-decoration: none;
@@ -76,11 +87,11 @@ table, th, td {
 
 .nav-links li a:hover {
     background-color: #1a3d8f;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .nav-links li a:active {
-    background-color: #1a3d8f;
-    border-radius: 10px;
+    background-color: #122b67;
+    border-radius: 15px;
 }
 

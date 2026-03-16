@@ -1,0 +1,20 @@
+ul.aboutme_links{
+    float:left;
+    margin-left: 0px;
+    width: calc(100% - 360px);
+    box-sizing: border-box;
+}
+
+.fun-facts-header{
+    clear: both;
+}
+
+.profile_photo {
+    display: block;
+    margin: 20px;
+    margin-left: 0 px;
+    border-radius: 50%;
+    float: left;
+    border: 2px solid #27180A;
+}
+

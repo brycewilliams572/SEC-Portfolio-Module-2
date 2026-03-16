@@ -10,8 +10,8 @@
 
 body{
     background-color: rgb(254, 241, 226);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 h1{
@@ -38,3 +38,18 @@ p{
     text-align: justify;
 }
 
+ul{
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
+}

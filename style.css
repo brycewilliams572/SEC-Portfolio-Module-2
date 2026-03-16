@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('assets/fonts/FjallaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('assets/fonts/LibreBaskerville-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(254, 241, 226);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+}
+

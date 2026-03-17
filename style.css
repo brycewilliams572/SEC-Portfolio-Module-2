@@ -1,3 +1,18 @@
+:root {
+    /* --primary-color: #2453b1;
+    --dark-primary-color: #122b67;
+    --background-color: rgb(255, 244, 233);
+    --text-color: #27180A;
+    --highlight-color: rgb(210, 186, 154); */
+
+    --primary-color: #22333b;
+    --light-primary-color: #2e4651;
+    --background-color: #f4f0ed;
+    --text-color: #0a0908;
+    --highlight-color: #c6ac8f;
+}
+
+
 @font-face {
     font-family: 'Fjalla One';
     src: url('assets/fonts/FjallaOne-Regular.ttf') format('truetype');
@@ -9,43 +24,44 @@
 }
 
 body{
-    background-color: rgb(255, 244, 233);
+    background-color: var(--background-color);
     margin-left: 40px;
     margin-right: 40px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h1{
-    color: #27180A;
+    color: var(--text-color);
     font-family: 'Fjalla One', sans-serif;
     text-align: center;
 }
 
 h2{
-    color: #27180A;
+    color: var(--text-color);
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
 
 h3{
-    color: #27180A;
+    color: var(--text-color);
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
 
 p{
-    color: #27180A;
+    color: var(--text-color);
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
 }
 
 ul{ 
 
-    color: #27180A;
+    color: var(--text-color);
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
     font-size: 16px;
-    background-color: rgb(210, 186, 154);
-    border: 2px solid #27180A;
+    background-color: var(--highlight-color);
+    border: 2px solid var(--primary-color);
     border-radius: 20px;
     padding: 30px ;
 }
@@ -58,15 +74,15 @@ table{
 }
 
 th, td{
-    border: 1px solid #27180A;
+    border: 1px solid var(--text-color);
     padding: 20px;
     font-family: 'Libre Baskerville', serif;
     width: 50%
 }
 
 th{
-    background-color: #2453b1;
-    color: rgb(255, 244, 233);
+    background-color: var(--primary-color);
+    color: var(--background-color);
     font-size: 20px;
 }
 
@@ -79,7 +95,7 @@ td{
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: #2453b1;
+    background-color: var(--primary-color);
     padding: 20px;
     justify-content: center;
     gap: 30px;
@@ -88,13 +104,13 @@ td{
 }
 
 .nav-links li a.current {
-    background-color: #122b67;
+    background-color: var(--light-primary-color);
     border-radius: 15px;
     padding: 10px 20px;
 }
 
 .nav-links li a {
-    color: rgb(255, 244, 233);
+    color: var(--background-color);
     text-decoration: none;
     font-family: 'Fjalla One', sans-serif;
     font-size: 18px;
@@ -102,12 +118,12 @@ td{
 }
 
 .nav-links li a:hover {
-    background-color: #1a3d8f;
+    background-color: var(--light-primary-color);
     border-radius: 15px;
 }
 
 .nav-links li a:active {
-    background-color: #122b67;
+    background-color: var(--light-primary-color);
     border-radius: 15px;
 }
 
